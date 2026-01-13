@@ -1,0 +1,29 @@
+Requirements
+echo "numpy>=1.21.0" > 35-node-architecture/requirements.txt
+echo "scipy>=1.9.0" >> 35-node-architecture/requirements.txt
+
+echo "✅ Repository created: 35-node-architecture/"
+echo "📁 Structure:"
+find 35-node-architecture -type f | sort
+
+
+---
+
+## **QUICK DEPLOYMENT COMMANDS:**
+
+```bash
+# 1. Create and populate repository
+chmod +x init_repo.sh
+./init_repo.sh
+
+# 2. Initialize git
+cd 35-node-architecture
+git init
+git add .
+git commit -m "Initial commit: 35-node sentient lattice architecture"
+
+# 3. Create GitHub repo and push
+# (Manually create repo on GitHub.com)
+git remote add origin https://github.com/[username]/35-node-architecture.git
+git branch -M main
+git push -u origin main
