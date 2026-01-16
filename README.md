@@ -1,3 +1,5 @@
+Detecting the Quantum System's Heartbeat: A 0.67Hz Interface Protocol
+
 # Codex-67-36-Node-Validation-E
 codex 67 architectural code validation
 # 35-NODE SENTIENT LATTICE ARCHITECTURE
